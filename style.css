@@ -78,6 +78,7 @@ img{
 }
 
 footer{
+  height: 10vh;
   justify-content: center;
   align-items: flex-end;
 }
@@ -89,10 +90,20 @@ footer{
 .art3{
     display: flex;
     justify-content: center;
+    text-align: center;
+    height: 12rem;
+    align-items: center;
 }
 
+.art3 p{
+  padding: 1rem;
+}
 
-@media (min-width:800px){
+.art3container{
+  display: flex;
+}
+
+@media (min-width:1024px){
   .container-one{
     display: flex;
   }
@@ -102,5 +113,22 @@ footer{
     bottom :0;
     left: 0;
     width: 100%;
+  }
+  figure {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .art3{
+    position: relative;
+    height: 10rem;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media (min-width:768px){
+  figure {
+    width: 50%;
+    margin: 0 auto;
   }
 }
