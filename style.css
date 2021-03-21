@@ -10,7 +10,10 @@ html{
 
 body{
   font-size: 1.6rem;
-  
+}
+
+main{
+  max-height: 80vh;
 }
 
 /* NAV */
@@ -77,8 +80,26 @@ img{
   text-decoration: none;
 }
 
+footer{
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.art1, .art2, .art3{
+  padding: 0.5rem;
+  text-align: center;
+}
+
+
 @media (min-width:800px){
   .container-one{
     display: flex;
-    align-items: flex-end;
+  }
+  footer{
+    justify-content: center;
+    position: absolute;
+    bottom :0;
+    left: 0;
+    width: 100%;
+  }
 }
