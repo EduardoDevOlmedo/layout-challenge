@@ -20,7 +20,7 @@ main{
 
 .navmain{
   width: 100%;
-  background-color: red;
+  background-color: rgb(49, 47, 54);
 }
 
 .father{
@@ -31,6 +31,7 @@ main{
   height: 10vh;
   align-items: center;
   padding: 1rem;
+  
 }
 
 .nav-desc{
@@ -39,6 +40,7 @@ main{
 
 .nav-desc a{
   text-decoration: none;
+  color: white;
 }
 
 img{
@@ -49,12 +51,11 @@ img{
   /* display: flex; */
   padding: 1.5rem;
   justify-content: space-evenly;
-  text-align: center;
+  text-align: justify;
 }
 
 
 /* footer */
-
 
 
 .footer-list{
@@ -65,10 +66,6 @@ img{
   height: 10vh;
   align-content: center;
   background-color: aqua;
-}
-
-.container-footer{
-  align-items: flex-end;
 }
 
 .list{
@@ -87,7 +84,11 @@ footer{
 
 .art1, .art2, .art3{
   padding: 0.5rem;
-  text-align: center;
+}
+
+.art3{
+    display: flex;
+    justify-content: center;
 }
 
 
