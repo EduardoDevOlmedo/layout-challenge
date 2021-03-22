@@ -1,0 +1,39 @@
+
+@media (min-width:1024px){
+  .container-one{
+    display: flex;
+  }
+  footer{
+    justify-content: center;
+    position: relative;
+    bottom :0;
+    left: 0;
+    width: 100%;
+  }
+  figure {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .art3{
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media (min-width:1444px){
+  footer{
+    justify-content: center;
+    position: fixed;
+    bottom :0;
+    left: 0;
+    width: 100%;
+  }
+  .art3{
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem;
+  }
+}
