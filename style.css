@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;    
+}
+
+@font-face{
+  font-family: 'Lemonade Thin Demo';
+  src: url(../fuentes/Lemonade\ Thin\ Demo.ttf);
+}
+
+body{
+  font-size: 1.6rem;
+  background-color: rgb(255, 191, 128);
+  font-family: 'Lemonade Thin Demo';
+}
+
+main{
+  max-height: 80vh;
+  
+}
+
+
+/* NAV */
+
+.navmain{
+  width: 100%;
+  background-color: rgb(49, 47, 54);
+}
+
+.father{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content:space-evenly;
+  height: 10vh;
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+.nav-desc{
+  list-style: none;
+}
+
+.nav-desc a{
+  text-decoration: none;
+  color: white;
+}
+
+img{
+    width:100%;
+    max-width:680px;
+}
+.container-one{
+  /* display: flex; */
+  padding: 1.5rem;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.navmain a:hover{
+  padding: 1rem;
+  color: aqua;
+  background-color: rgb(90, 90, 90);
+  border-radius: 20%;
+  transition: 0.15s linear;
+}
+/* footer */
+
+
+.footer-list{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-content: center;
+  background-color: rgb(83, 62, 44);
+}
+
+.list{
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.list a{
+  text-decoration: none;
+}
+
+footer{
+  height: 10vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer a:hover{
+  padding: 0.23rem;
+  color: rgb(249, 250, 250);
+  border-radius: 20%;
+  
+  transition: 0.2s linear;
+  opacity: 0.5;
+  padding-bottom: 0;
+}
+
+
+footer img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* main */
+
+h1{
+  font-weight: 900;
+  text-transform:uppercase;
+}
+
+.art1, .art2, .art3{
+  padding: 0.5rem;
+}
+
+.art3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+}
+
+.art3 p{
+  padding: 0.2rem;
+}
+
+.art3container{
+  display: flex;
+  position: relative;
+}
+
+
+
+
